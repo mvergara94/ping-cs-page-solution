@@ -191,3 +191,14 @@ body {
     margin-bottom: 2rem;
   }
 }
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 1024px;
+  }
+
+  .main-content {
+    justify-content: flex-start;
+    gap: 4rem;
+  }
+}
